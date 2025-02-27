@@ -29,7 +29,7 @@ while (true) {
         alert("> Oh, qué pena... ¿Ya intentaste aprender otros lenguajes?")
         break
     } else {
-        alert ("Oh!, lo siento. Inserto un dato incorrecto, vuelva a intentarlo! ")
+        alert ("Oh!, lo siento. Inserto un dato incorrecto, vuelva a intentarlo!")
     }
 }
 
