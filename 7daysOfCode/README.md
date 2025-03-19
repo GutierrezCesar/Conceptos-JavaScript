@@ -1,4 +1,4 @@
-Jornada de 7 dias de codigo con #7DaysOfCode
+Jornada 7 dias de codigo con #7DaysOfCode
 
 Dia 1. 
 Tu tarea de hoy es reescribir el código a continuación para que imprima la información de manera correcta, que tenga sentido y sin errores:

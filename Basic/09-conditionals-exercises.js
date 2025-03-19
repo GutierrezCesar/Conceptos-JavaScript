@@ -1,6 +1,7 @@
 // if/else/else if/ternaria
 
 // 1. Imprime por consola tu nombre si una variable toma su valor
+console.log("-------Ejercicio 1-------------")
 let nombre = "Cesar"
 
 if(nombre){
@@ -8,6 +9,7 @@ if(nombre){
 }
 
 // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
+console.log("\n-------Ejercicio 2-------------")
 let usuario = "X14049"
 let password = "Cesar01"
 
@@ -16,6 +18,7 @@ if(usuario == "X14049" && password == "Cesar01"){
 } 
 
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
+console.log("\n-------Ejercicio 3-------------")
 let numero = 0
 
 if(numero > 0){
@@ -27,6 +30,8 @@ if(numero > 0){
 }
 
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
+console.log("\n-------Ejercicio 4-------------")
+
 let age = 19
 
 if (age >= 18) {
@@ -37,11 +42,13 @@ if (age >= 18) {
 
 // 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable
 //    dependiendo de la edad 
+console.log("\n-------Ejercicio 5-------------")
 
 let persona = age >= 18 ? "La persona es adulta" : "La persona es menor de edad"
 console.log(persona)
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
+console.log("\n-------Ejercicio 6-------------")
 
 let mes = "Febrero"
 let mesValor = mes.toLowerCase()
@@ -57,6 +64,7 @@ if ( mesValor == "diciembre" || mesValor == "enero" || mesValor == "febrero" ) {
 }
 
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
+console.log("\n-------Ejercicio 7-------------")
 
 if (mesValor ==  "enero" || mesValor ==  "marzo" || mesValor ==  "mayo" || mesValor ==  "julio" || mesValor ==  "agosto" || mesValor ==  "octubre" || mesValor ==  "diciembre"){
     console.log (`El mes de ${mesValor} cuenta con 31 dias`)
@@ -69,6 +77,7 @@ if (mesValor ==  "enero" || mesValor ==  "marzo" || mesValor ==  "mayo" || mesVa
 // switch
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
+console.log("\n-------Ejercicio 8-------------")
 let saludo = "Hola"
 let menu = 
 `--- Escoge el idioma de saludo -----
@@ -96,7 +105,7 @@ switch (opcion){
 }
 
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
-
+console.log("\n-------Ejercicio 9-------------")
 let insertarMes = "Julio"
 let insertarMesValor = insertarMes.toLowerCase()
 
@@ -126,7 +135,7 @@ switch (insertarMesValor){
 }
 
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
-
+console.log("\n-------Ejercicio 10-------------")
 switch (insertarMesValor){
     case "diciembre":        
     case "enero":

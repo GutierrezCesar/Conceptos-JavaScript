@@ -56,7 +56,7 @@ console.log(mes)
 // 8. Comprueba si el mes número 5 existe en el map e imprime su valor
 console.log("\n-------Ejercicio 8-------------")
 
-let buscarMes = 13
+let buscarMes = 5
 let opcionMes = mes.has(buscarMes)
 
 if(opcionMes == true){
@@ -68,7 +68,7 @@ if(opcionMes == true){
 // 9. Añade al mapa una clave con un array que almacene los meses de verano
 console.log("\n-------Ejercicio 9-------------")
 mes.set("Verano", ["Diciembre", "Enero", "Febrero"])
-console.log(mes.get("Verano"))
+console.log(`Los meses de verano son: ${mes.get("Verano")}`)
 
 // 10. Crea un Array, transfórmalo a un Set y almacénalo en un Map  
 console.log("\n-------Ejercicio 10-------------")

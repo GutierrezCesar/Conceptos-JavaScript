@@ -11,14 +11,11 @@ for (let i = 1; i <= 10; i++) {
 console.log("\n-------Ejercicio 2-------------")
 
 let suma = 0
-let resultado
 
 for (let i = 1; i <= 100; i++) {
     suma += i
 }
 console.log(`La suma de 1 al 100 es ${suma}`)
-
-
 
 // 3. Crea un bucle que imprima todos los números pares entre 1 y 50
 console.log("\n-------Ejercicio 3-------------")
